@@ -1,0 +1,61 @@
+<div class="slide">
+  <div class="ph">
+    <span class="ph-num">02</span>
+    <span class="ph-title">従来の課題と slidex のアプローチ</span>
+  </div>
+  <p class="ph-msg">バイナリベースからテキストベースへの根本的な転換</p>
+  <div class="ph-line"></div>
+
+  <div class="flex g4 aist" style="min-height:52mm;">
+    <!-- 旧アプローチ -->
+    <div class="f1" style="border:1.5px solid #C00000; border-radius:6px; overflow:hidden; display:flex; flex-direction:column;">
+      <div style="background:#C00000; color:white; padding:5px 10px; text-align:center;">
+        <p class="fw7 fs11">&#x2716; 従来のスライド管理</p>
+        <p style="font-size:9pt; color:#FFB3B3;">PowerPoint / Google Slides</p>
+      </div>
+      <div style="padding:8px 10px; background:#FFF5F5; flex:1; display:flex; flex-direction:column; justify-content:center; gap:2mm;">
+        <p class="fs85" style="color:#C00000;">&#x2718; バイナリファイルでGit差分が見えない</p>
+        <p class="fs85" style="color:#C00000;">&#x2718; SaaSは権限管理が複雑・コストがかかる</p>
+        <p class="fs85" style="color:#C00000;">&#x2718; AIが直接編集しにくいフォーマット</p>
+        <p class="fs85" style="color:#C00000;">&#x2718; カスタマイズ・拡張が困難</p>
+      </div>
+    </div>
+
+    <!-- 矢印 -->
+    <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:0 2mm; min-width:18mm;">
+      <p style="font-size:28pt; color:#4472C4; line-height:1;">&#x25B6;</p>
+      <p class="fw7 fs9 cb" style="margin-top:1mm;">転換</p>
+    </div>
+
+    <!-- 新アプローチ -->
+    <div class="f1" style="border:1.5px solid #9BBB59; border-radius:6px; overflow:hidden; display:flex; flex-direction:column;">
+      <div style="background:#4E7A25; color:white; padding:5px 10px; text-align:center;">
+        <p class="fw7 fs11">&#x2714; slidex のアプローチ</p>
+        <p style="font-size:9pt; color:#D4E8B0;">JSON / HTML / GitHub</p>
+      </div>
+      <div style="padding:8px 10px; background:#F5FAF0; flex:1; display:flex; flex-direction:column; justify-content:center; gap:2mm;">
+        <div style="display:flex; align-items:center; gap:2mm;">
+          <span class="pill pill-g" style="min-width:14mm; text-align:center;">Diff</span>
+          <p class="fs85">JSON/HTMLでgit diff可能</p>
+        </div>
+        <div style="display:flex; align-items:center; gap:2mm;">
+          <span class="pill pill-g" style="min-width:14mm; text-align:center;">Auth</span>
+          <p class="fs85">GitHub Permissionsで完結</p>
+        </div>
+        <div style="display:flex; align-items:center; gap:2mm;">
+          <span class="pill pill-g" style="min-width:14mm; text-align:center;">AI</span>
+          <p class="fs85">JSONはAI-friendly</p>
+        </div>
+        <div style="display:flex; align-items:center; gap:2mm;">
+          <span class="pill pill-g" style="min-width:14mm; text-align:center;">Ext</span>
+          <p class="fs85">Claude Codeで手元拡張</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sf">
+    <span>slidex | プロジェクト概要</span>
+    <span>{PAGE} / {TOTAL}</span>
+  </div>
+</div>

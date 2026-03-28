@@ -1,0 +1,14 @@
+# slidex — プロジェクト概要
+# ページ順序定義
+
+cover.html
+section-why.html
+overview.html
+before-after.html
+comparison.html
+section-tech.html
+architecture.html
+pillars.html
+workflow.html
+roadmap.html
+decisions.html

@@ -1,0 +1,46 @@
+<div class="slide">
+  <div class="ph">
+    <span class="ph-num">08</span>
+    <span class="ph-title">設計上の注意点</span>
+  </div>
+  <p class="ph-msg">開発を始める前に固めるべき方針</p>
+  <div class="ph-line"></div>
+
+  <div>
+    <div class="nrow">
+      <span class="nrow-num">01</span>
+      <div>
+        <p class="nrow-title">CSSデザインシステムは最初が肝</p>
+        <p class="nrow-body">後からクラス名を変えると全ページに影響。base.css を最初に徹底的に設計。</p>
+      </div>
+    </div>
+    <div class="nrow">
+      <span class="nrow-num">02</span>
+      <div>
+        <p class="nrow-title">HTML-as-source を貫く</p>
+        <p class="nrow-body">保存フォーマットは常にHTML。中間JSONは使わない。リポジトリ単体で自己完結。</p>
+      </div>
+    </div>
+    <div class="nrow">
+      <span class="nrow-num">03</span>
+      <div>
+        <p class="nrow-title">エディターは交換可能に設計</p>
+        <p class="nrow-body">CSSクラスがAPIなので、エディターは各自で自作可能。公式エディターに依存しない。</p>
+      </div>
+    </div>
+    <div class="nrow">
+      <span class="nrow-num">04</span>
+      <div>
+        <p class="nrow-title">base.css はリポジトリにコピー</p>
+        <p class="nrow-body">CDN依存しない。各プレゼンリポジトリに _template.html としてインライン。バージョンはコメントで管理。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="keymsg mt3"><em>CSSクラス = API</em> — デザインシステムの設計がプロジェクト成功の鍵</div>
+
+  <div class="sf">
+    <span>slidex | プロジェクト概要</span>
+    <span>{PAGE} / {TOTAL}</span>
+  </div>
+</div>
